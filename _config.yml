@@ -1,0 +1,80 @@
+title: "Dr. Prashaant Kumar"
+email: "your.email@domain.com"
+description: >- 
+  PhD in AI & Climate Science · Incoming Postdoc at KIT · Working on Geospatial Machine Learning, Satellites, and Low-Level Clouds
+
+url: "https://prashaant-k.github.io"
+baseurl: ""
+
+twitter_username: prashaant_k
+github_username: prashaant-k
+orcid: 0000-0000-0000-0000
+google_scholar: https://scholar.google.com/citations?user=xxxxxx
+
+author:
+  name   : "Prashaant Kumar"
+  avatar : "/assets/images/avatar.jpg"
+  bio    : "Postdoctoral Researcher | AI for Climate | Low-Level Cloud Systems"
+  location: "Germany"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your.email@domain.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/prashaant-k"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=xxxxxx"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0000-0000-0000"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/prashaant_k"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/prashaant-k"
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+markdown: kramdown
+highlighter: rouge
+
+paginate: 5
+paginate_path: /page:num/
+
+include:
+  - _pages
+  - _posts
+  - _data
+  - assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
